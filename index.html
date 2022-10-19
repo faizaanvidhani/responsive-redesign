@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>Responsive Redesign</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div class="section big-section">
+      <h1>
+        Responsive Redesign
+      </h1>
+      <p>
+        To practice the workflow of redesigning websites, I decided to transform a website
+        that needed improvement. I chose a website belonging to a local Chinese restaurant near
+        where I live. The existing interface had flaws that needed to be addressed. To address the issues
+        of the existing interface, I created both lo-fidelity and hi-fidelity prototypes and built a 
+        responsive website based on these prototypes.
+      </p>
+    </div>
+
+    <div class="section even">
+      <h2>
+        Part 1: Identifying Usability Problems
+      </h2>
+      <h3>
+        Chosen Interface
+      </h3>
+      <div class="image-caption">
+        <img src="./assets/old-interface.png" alt="image of current restaurant website">
+        <br>
+        <a class="black-link" href="https://chinaonecarrollton.menucities.com/default.aspx">https://chinaonecarrollton.menucities.com/default.aspx</a>
+      </div>
+      <p>
+        I chose this custom-made restaurant ordering site since I saw many opportunities for improvement in visual design (e.g. better use of white space, headings of different weights/levels, more intuitive layout).
+      </p>
+  
+      <div>
+        <h3>Usability Analysis</h3>
+        <div>
+          <h4>Learnability</h4>
+            <ul>
+              <li>
+                First-time users may have a hard time learning about the restaurant due to the bulky body of text in the “Welcome” section, which makes it harder to extract relevant information 
+              </li>
+              <li>
+                First-time users may have a hard time finding the link to the customer reviews since the link is placed within a body of text
+              </li>
+            </ul>
+        </div>
+        <div>
+          <h4>Memorability</h4>
+          <ul>
+            <li>
+              The menu option is located in a logical place since it is an element in the navigation bar. Thus, it is easy for casual users to recall where to look to place an order 
+            </li>
+            <li>
+              However, casual users may find it difficult to recall where the telephone number is located since all the relevant information seems to be stored in the bulky body of text in the ‘Welcome’ section
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Efficiency</h4>
+          <ul>
+            <li>
+              “Order online” could be turned from bolded text to a button that transports users to the menu page to make ordering easier and more efficient
+            </li>
+            <li>
+              The address and contact information are related pieces of information that should be situated near each other. Currently, the contact information is located at the top-left corner; the address is located in the middle of the screen. 
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div>
+        <h3>Accessibility Findings</h3>
+        <p>
+          While the WebAIM Wave accessibility tool was unable to render my page correctly, 
+          I was still able to leverage the tool to find possible accessibility problems. I agreed with most of the 
+          problems pointed out by the tool.  For example, one problem raised was that, many of the images lacked 
+          alternative text. The lack of alternative text is alarming — it affects users of the site who are visually 
+          impaired. These users rely on screen readers that process alternative text to communicate the contents of the site. 
+          Also, the tool warned that there was low contrast between the text and background colors. While the text seemed 
+          readable to me, it may be that other users may have a hard time reading the text.
+        </p>
+      </div>
+    </div>
+
+    <div class="section odd">
+      <h2>
+        Part 2: Visual Redesign
+      </h2>
+      <h3>
+        Low-Fidelity Wireframing
+      </h3>
+      <p>
+        To address the usability issues, I created low-fidelity wireframes for desktop,
+        tablet, and mobile sizes. I have annotated the desktop prototype with the intent
+        of some of my design choices. These annotations also apply to the other low-fidelity
+        wireframes.
+      </p>
+      <div class="image-caption">
+        <h4>Desktop Low-Fidelity Wireframe</h4>
+        <img src="./assets/desktop-lo.jpg" alt="low fidelity desktop prototype">
+      </div>
+      <div class="image-caption">
+        <h4>Tablet Low-Fidelity Wireframe</h4>
+        <img src="./assets/tablet-lo.jpg" alt="low fidelity tablet prototype">
+      </div>
+      <div class="image-caption">
+        <h4>Mobile Low-Fidelity Wireframe</h4>
+        <img src="./assets/phone-lo.jpg" alt="low fidelity mobile prototype">
+      </div>
+
+      <div>
+        <h3>
+          Visual Design Style Guide
+        </h3>
+        <p>
+          Next, I created a visual design style guide to thoroughly describe the different
+          base states, interaction states, and other visual elements used on the actual website.
+        </p>
+        <div class="image-caption">
+          <img src="./assets/visual-design-style.png" alt="image of visual design guide">
+        </div>
+      </div>
+  
+      <div>
+        <h3>
+          High-Fidelity Prototyping
+        </h3>
+        <p>
+          After creating a visual design style guide, I created high-fidelity prototypes. I used
+          visual design principles such as color, alignment, and font differences to show visual hierarchy
+          in the interface. 
+        </p>
+        <div class="image-caption">
+          <h4>Desktop High-Fidelity Prototype</h4>
+          <img src="./assets/desktop-hi.png" alt="desktop hi-fidelity">
+          <h4>Annotated Desktop High-Fidelity Prototype</h4>
+          <img src="./assets/desktop-hi-a.jpg" alt="desktop hi-fidelity annotated">
+          <h4>Tablet High-Fidelity Prototypes</h4>
+          <img src="./assets/tablet-hi-1.png" alt="tablet hi-fidelity 1">
+          <br>
+          <img src="./assets/tablet-hi-2.png" alt="tablet hi-fidelity 2">
+          <h4>Annotated Tablet High-Fidelity Prototypes</h4>
+          <img src="./assets/tablet-hi-a.jpg" alt="tablet hi-fidelity annotated">
+          <h4>Mobile High-Fidelity Prototypes</h4>
+          <img src="./assets/phone-hi.png" alt="phone hi-fidelity">
+          <h4>Annotated Mobile High-Fidelity Prototypes</h4>
+          <img src="./assets/phone-hi-a.jpg" alt="phone hi-fidelity annotated">
+        </div>
+      </div>
+    </div>
+
+    <div class="section even">
+      <h2>
+        Part 3: Responsive Redesign
+      </h2>
+      <p>
+        Using the high-fidelity prototypes, I built the page using HTML and CSS!
+        Note that buttons and navigational elements are replaced with dummy elements. Click 
+        <a class="black-link" href="https://chinaonecarrollton.menucities.com/default.aspx">HERE</a> to
+        visit the current website. Click <a class="black-link" href="https://ecstaticgoat777.github.io/chinese-restaurant-redesign/">HERE</a>
+        to visit the redesigned website! Alternatively, copy and paste the links below.
+      </p>
+      <ul>
+        <li>
+          <a class="black-link" href="https://chinaonecarrollton.menucities.com/default.aspx">https://chinaonecarrollton.menucities.com/default.aspx</a>
+        </li>
+        <li>
+          <a class="black-link" href="https://ecstaticgoat777.github.io/chinese-restaurant-redesign/">https://ecstaticgoat777.github.io/chinese-restaurant-redesign/</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section big-section">
+      <h2>
+        Conclusion
+      </h2>
+      <p>
+        By analyzing a simple website, I was able to identify several usability flaws. I found that
+        it was incredibly helpful to fragment the redesigning process into separate steps: identification of
+        flaws, lo-fi prototyping, hi-fi prototyping, and redesigning the actual site. I realized the challenges
+        of making a website that caters to first-time, casual, and frequent users. But more importantly, I realized
+        how using a systematic process can help overcome these challenges in building a great interface.
+      </p>
+
+      <div>
+        <h3>
+          Citations
+        </h3>
+        <p>To implement the mobile navigation bar, I referenced the following link:</p>
+        <ul>
+          <li>
+            <a class="white-link" href="https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci">https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+
+</html>
